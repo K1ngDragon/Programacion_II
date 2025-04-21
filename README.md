@@ -1,6 +1,7 @@
+![ ](https://exactas.unca.edu.ar/jucen12/Logi%20FACEN%202021%20ok.png)
+---
 # Programacion II
-Trabajos prácticos de la Cátedra, Programación II
-#Trabajo Práctico: Estructura FOR y función RANGE en Python
+## Trabajos prácticos de la Cátedra, Programación II Trabajo Práctico:<br/>Estructura FOR y función RANGE en Python
 
 Resolver los siguientes ejercicios en Python utilizando la sentencia for
 
@@ -36,19 +37,18 @@ for x in range (1, 101):
     resultado = x * 3
     print(f"Los 100 primeros 100 números son = {resultado}")
 ```
-#6. Sumar todos los números del 1 al 100 e imprimir el resultado.
+6. Sumar todos los números del 1 al 100 e imprimir el resultado.
 
-
-##for x in range (0, 101):
-##    suma= x + 1
-##    suma_total = suma_total + suma
-##print (f"La suma total de los 100 primeros números es {suma_total}")
-
-#7. Pedir al Usuario un número y mostrarlo solo en caso que sea positivo.
-# Repita 10 veces
-
-##for x in range(10):
-##    numero = float(input(f"Ingrese un número (le queda {10-x} ingreso): "))
-##    if numero > 0:
-##        print(f"El número positivo ingresado es: {numero}")
-##print("Fin del programa...")
+```
+for x in range (0, 101):
+    suma= x + 1
+    suma_total = suma_total + suma
+print (f"La suma total de los 100 primeros números es {suma_total}")
+```
+7. Pedir al Usuario un número y mostrarlo solo en caso que sea positivo. Repita 10 veces
+```
+for x in range(10):
+    numero = float(input(f"Ingrese un número (le queda {10-x} ingreso): "))
+    if numero > 0:
+        print(f"El número positivo ingresado es: {numero}")
+print("Fin del programa...")
