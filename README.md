@@ -20,7 +20,6 @@ for x in range (1945, 2025+1):
 for x in range (2, 200+1,2):
    print(f"El año que se impripe es: {x}")
 ```    
-
 3. Mostrar los números del 100 al 14 en orden descendente. :heavy_check_mark:
 
 ```python
@@ -48,7 +47,7 @@ for x in range (0, 101):
     suma_total = suma_total + suma
 print (f"La suma total de los 100 primeros números es {suma_total}")
 ```
-7. Pedir al Usuario un número y mostrarlo solo en caso que sea positivo. Repita 10 veces :heavy_check_mark:
+7. Pedir al Usuario un número y mostrarlo solo en caso que sea positivo. Repita 10 veces. :heavy_check_mark:
 ```python
 for x in range(10):
     numero = float(input(f"Ingrese un número (le queda/n {10-x} ingreso/s): "))
@@ -56,14 +55,14 @@ for x in range(10):
         print(f"El número positivo ingresado es: {numero}")
 print("Fin del programa...")
 ```
-8. Pedir al Usuario una palabra. Luego mostrarla letra por letra
+8. Pedir al Usuario una palabra. Luego mostrarla letra por letra. :heavy_check_mark:
 ```python
 frase = input("Introduce una palabra o frase: ")
 
 for i in frase:
     print(i)
 ```
-9. Pedir al Usuario una palabra, luego mostrar cuántas letras ‘a’ tiene la palabra.
+9. Pedir al Usuario una palabra, luego mostrar cuántas letras ‘a’ tiene la palabra. :heavy_check_mark:
 ```python
 frase = input("Introduce una palabra o frase: ")
 
@@ -81,7 +80,7 @@ for caracter in frase:
 print(f"La palabra o frase tiene {a} 'a' y {á} 'á' en total")
 
 ```
-10 Pedir al Usuario una palabra, luego mostrar cuántas vocales tiene la palabra
+10 Pedir al Usuario una palabra, luego mostrar cuántas vocales tiene la palabra. :heavy_check_mark:
 ```python
 frase = input("Introduce una palabra o frase: ")
 
