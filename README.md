@@ -51,7 +51,7 @@ print (f"La suma total de los 100 primeros números es {suma_total}")
 7. Pedir al Usuario un número y mostrarlo solo en caso que sea positivo. Repita 10 veces :heavy_check_mark:
 ```python
 for x in range(10):
-    numero = float(input(f"Ingrese un número (le queda {10-x} ingreso): "))
+    numero = float(input(f"Ingrese un número (le queda/n {10-x} ingreso/s): "))
     if numero > 0:
         print(f"El número positivo ingresado es: {numero}")
 print("Fin del programa...")
