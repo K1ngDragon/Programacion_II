@@ -63,7 +63,7 @@ frase = input("Introduce una palabra o frase: ")
 for i in frase:
     print(i)
 ```
-.-Extra
+10 Pedir al Usuario una palabra, luego mostrar cuántas vocales tiene la palabra
 ```python
 frase = input("Introduce una palabra o frase: ")
 
