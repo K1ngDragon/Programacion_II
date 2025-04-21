@@ -91,18 +91,19 @@ for caracter in frase:
         o += 1
     elif caracter == 'u':
         u += 1
-    elif caracter == 'u':
+    elif caracter == 'á':
         á += 1
-    elif caracter == 'e':
+    elif caracter == 'é':
         é += 1
-    elif caracter == 'i':
+    elif caracter == 'í':
         í += 1
-    elif caracter == 'o':
+    elif caracter == 'ó':
         ó += 1
-    elif caracter == 'u':
+    elif caracter == 'ú':
         ú += 1
 
-print("\nConteo de vocales:")
+print("Conteo de vocales:")
+
 print(f"a = {a}")
 print(f"e = {e}")
 print(f"i = {i}")
@@ -114,7 +115,7 @@ print(f"í = {í}")
 print(f"ó = {ó}")
 print(f"ú = {ú}")
 
-# Imprimir el total de vocales
 total_vocales = a + e + i + o + u + á + é + í + ó + ú
-print(f"\nTotal de vocales: {total_vocales}")
+print(f"Total de vocales: {total_vocales}")
+
 ```
