@@ -80,7 +80,7 @@ for caracter in frase:
 print(f"La palabra o frase tiene {a} 'a' y {á} 'á' en total")
 
 ```
-10 Pedir al Usuario una palabra, luego mostrar cuántas vocales tiene la palabra. :heavy_check_mark:
+10. Pedir al Usuario una palabra, luego mostrar cuántas vocales tiene la palabra. :heavy_check_mark:
 ```python
 frase = input("Introduce una palabra o frase: ")
 
