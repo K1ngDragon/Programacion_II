@@ -63,6 +63,24 @@ frase = input("Introduce una palabra o frase: ")
 for i in frase:
     print(i)
 ```
+9. Pedir al Usuario una palabra, luego mostrar cuántas letras ‘a’ tiene la palabra.
+```python
+frase = input("Introduce una palabra o frase: ")
+
+a = 0
+á = 0
+
+frase = frase.lower()
+
+for caracter in frase:
+    if caracter == 'a':
+        a += 1
+    elif caracter == 'á':
+        á += 1
+            
+print(f"La palabra o frase tiene {a} 'a' y {á} 'á' en total")
+
+```
 10 Pedir al Usuario una palabra, luego mostrar cuántas vocales tiene la palabra
 ```python
 frase = input("Introduce una palabra o frase: ")
