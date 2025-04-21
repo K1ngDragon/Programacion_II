@@ -55,3 +55,47 @@ for x in range(10):
     if numero > 0:
         print(f"El número positivo ingresado es: {numero}")
 print("Fin del programa...")
+```
+8. Pedir al Usuario una palabra. Luego mostrarla letra por letra
+```python
+frase = input("Introduce una palabra o frase: ")
+
+for i in frase:
+    print(i)
+```
+.-Extra
+```python
+frase = input("Introduce una palabra o frase: ")
+
+a = 0
+e = 0
+i = 0
+o = 0
+u = 0
+
+frase = frase.lower()
+
+for caracter in frase:
+    if caracter == 'a':
+        a += 1
+    elif caracter == 'e':
+        e += 1
+    elif caracter == 'i':
+        i += 1
+    elif caracter == 'o':
+        o += 1
+    elif caracter == 'u':
+        u += 1
+
+
+print("\nConteo de vocales:")
+print(f"a = {a}")
+print(f"e = {e}")
+print(f"i = {i}")
+print(f"o = {o}")
+print(f"u = {u}")
+
+# Imprimir el total de vocales
+total_vocales = a + e + i + o + u
+print(f"\nTotal de vocales: {total_vocales}")
+```
