@@ -1,8 +1,12 @@
 ![ ](FACEN.png)
+
+> [!NOTE]
+>:man_student: _**Alumno:**_ _Mario Jorge Tapia_ <br/> :memo: _**M.U. Nº**_: _601 (Redes)_
+
+
+## Trabajos prácticos de la Cátedra, Programación II Trabajo Práctico:<br/>Estructura `For` y función `Range` en Python
 ---
-## Trabajos prácticos de la Cátedra, Programación II Trabajo Práctico:<br/>Estructura FOR y función RANGE en Python
----
-Resolver los siguientes ejercicios en Python utilizando la sentencia for
+### Resolver los siguientes ejercicios en Python utilizando la sentencia for
 
 1. Imprimir los años del 1945 al 2025. :heavy_check_mark:
 
