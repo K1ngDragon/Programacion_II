@@ -16,5 +16,5 @@ TEXT 2
 TEXT 2
 ## Trabajo Práctico N° 1: 
 
-Link to the sample section: [Link Text](#sample-section).
+Link to the sample section: [Link Text](#TP_For_y_Range.md).
 
