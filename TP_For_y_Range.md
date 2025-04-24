@@ -89,35 +89,20 @@ e = 0
 i = 0
 o = 0
 u = 0
-á = 0
-é = 0
-í = 0
-ó = 0
-ú = 0
 
 frase = frase.lower()
 
 for caracter in frase:
-    if caracter == 'a':
+    if caracter == 'a' or caracter == 'á':
         a += 1
-    elif caracter == 'e':
+    elif caracter == 'e' or caracter == 'é':
         e += 1
-    elif caracter == 'i':
+    elif caracter == 'i' or caracter == 'í':
         i += 1
-    elif caracter == 'o':
+    elif caracter == 'o' or  caracter == 'ó':
         o += 1
-    elif caracter == 'u':
+    elif caracter == 'u' or caracter == 'ú':
         u += 1
-    elif caracter == 'á':
-        á += 1
-    elif caracter == 'é':
-        é += 1
-    elif caracter == 'í':
-        í += 1
-    elif caracter == 'ó':
-        ó += 1
-    elif caracter == 'ú':
-        ú += 1
 
 print("Conteo de vocales:")
 
@@ -126,13 +111,7 @@ print(f"e = {e}")
 print(f"i = {i}")
 print(f"o = {o}")
 print(f"u = {u}")
-print(f"á = {á}")
-print(f"é = {é}")
-print(f"í = {í}")
-print(f"ó = {ó}")
-print(f"ú = {ú}")
 
-total_vocales = a + e + i + o + u + á + é + í + ó + ú
+total_vocales = a + e + i + o + u
 print(f"Total de vocales: {total_vocales}")
-
 ```
